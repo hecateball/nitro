@@ -42,7 +42,7 @@
     "@cloudflare/kv-asset-handler": "^0.2.0",
     "@netlify/functions": "^1.0.0",
     "@rollup/plugin-alias": "^3.1.9",
-    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-inject": "^4.0.4",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -96,8 +96,8 @@
     "table": "^6.8.0",
     "ufo": "^0.8.4",
     "unenv": "^0.5.2",
-    "unimport": "^0.3.0",
-    "unstorage": "^0.5.1"
+    "unimport": "^0.4.0",
+    "unstorage": "^0.5.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
@@ -117,7 +117,7 @@
     "typescript": "^4.7.4",
     "unbuild": "^0.7.4",
     "vitepress": "^0.22.4",
-    "vitest": "^0.15.2"
+    "vitest": "^0.16.0"
   },
   "packageManager": "pnpm@7.3.0",
   "engines": {

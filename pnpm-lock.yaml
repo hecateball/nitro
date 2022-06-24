@@ -11,7 +11,7 @@ importers:
       '@netlify/functions': ^1.0.0
       '@nuxtjs/eslint-config-typescript': ^10.0.0
       '@rollup/plugin-alias': ^3.1.9
-      '@rollup/plugin-commonjs': ^22.0.0
+      '@rollup/plugin-commonjs': ^22.0.1
       '@rollup/plugin-inject': ^4.0.4
       '@rollup/plugin-json': ^4.1.0
       '@rollup/plugin-node-resolve': ^13.3.0
@@ -80,15 +80,15 @@ importers:
       ufo: ^0.8.4
       unbuild: ^0.7.4
       unenv: ^0.5.2
-      unimport: ^0.3.0
-      unstorage: ^0.5.1
+      unimport: ^0.4.0
+      unstorage: ^0.5.2
       vitepress: ^0.22.4
-      vitest: ^0.15.2
+      vitest: ^0.16.0
     dependencies:
       '@cloudflare/kv-asset-handler': 0.2.0
       '@netlify/functions': 1.0.0
       '@rollup/plugin-alias': 3.1.9_rollup@2.75.7
-      '@rollup/plugin-commonjs': 22.0.0_rollup@2.75.7
+      '@rollup/plugin-commonjs': 22.0.1_rollup@2.75.7
       '@rollup/plugin-inject': 4.0.4_rollup@2.75.7
       '@rollup/plugin-json': 4.1.0_rollup@2.75.7
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.75.7
@@ -142,8 +142,8 @@ importers:
       table: 6.8.0
       ufo: 0.8.4
       unenv: 0.5.2
-      unimport: 0.3.0_qrpxjnto46iodaa4efitqiw3he
-      unstorage: 0.5.1
+      unimport: 0.4.0_qrpxjnto46iodaa4efitqiw3he
+      unstorage: 0.5.2
     devDependencies:
       '@nuxtjs/eslint-config-typescript': 10.0.0_b5e7v2qnwxfo6hmiq56u52mz3e
       '@types/aws-lambda': 8.10.101
@@ -162,7 +162,7 @@ importers:
       typescript: 4.7.4
       unbuild: 0.7.4
       vitepress: 0.22.4
-      vitest: 0.15.2_c8@7.11.3
+      vitest: 0.16.0_c8@7.11.3
 
   docs:
     specifiers: {}
@@ -894,8 +894,8 @@ packages:
       rollup: 2.75.7
     dev: true
 
-  /@rollup/plugin-commonjs/22.0.0_rollup@2.75.7:
-    resolution: {integrity: sha512-Ktvf2j+bAO+30awhbYoCaXpBcyPmJbaEUYClQns/+6SNCYFURbvBiNbWgHITEsIgDDWCDUclWRKEuf8cwZCFoQ==}
+  /@rollup/plugin-commonjs/22.0.1_rollup@2.75.7:
+    resolution: {integrity: sha512-dGfEZvdjDHObBiP5IvwTKMVeq/tBZGMBHZFMdIV1ClMM/YoWS34xrHFGfag9SN2ZtMgNZRFruqvxZQEa70O6nQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       rollup: ^2.68.0
@@ -1829,7 +1829,7 @@ packages:
     dev: false
 
   /commondir/1.0.1:
-    resolution: {integrity: sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=}
+    resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
 
   /compare-func/2.0.0:
     resolution: {integrity: sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==}
@@ -5609,8 +5609,8 @@ packages:
       readable-stream: 3.6.0
     dev: true
 
-  /tinypool/0.1.3:
-    resolution: {integrity: sha512-2IfcQh7CP46XGWGGbdyO4pjcKqsmVqFAPcXfPxcPXmOWt9cYkTP9HcDmGgsfijYoAEc4z9qcpM/BaBz46Y9/CQ==}
+  /tinypool/0.2.1:
+    resolution: {integrity: sha512-HFU5ZYVq3wBfhSaf8qdqGsneaqXm0FgJQpoUlJbVdHpRLzm77IneKAD3RjzJWZvIv0YpPB9S7LUW53f6BE6ZSg==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -5795,8 +5795,8 @@ packages:
       pathe: 0.3.0
     dev: false
 
-  /unimport/0.3.0_qrpxjnto46iodaa4efitqiw3he:
-    resolution: {integrity: sha512-RxvfvKBY+CyBmIuYSuBeosSiudgcVakdhVofy5mO5sJ3purQRc5yjLw0Lir7MKHnqe6XT1++8flgAvpxu1UkqQ==}
+  /unimport/0.4.0_qrpxjnto46iodaa4efitqiw3he:
+    resolution: {integrity: sha512-k2KgvR/rvpmOln5vJtgbikfnntV3nG2F4mRrAI+16cA0KgANaPqHwVrdJijWbW4ZLDmSt0xzCfy4MJt8bMel0w==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
       escape-string-regexp: 5.0.0
@@ -5844,8 +5844,8 @@ packages:
       webpack-virtual-modules: 0.4.3
     dev: false
 
-  /unstorage/0.5.1:
-    resolution: {integrity: sha512-K6FGEeZrECiVieo5hysFXCBd6HKmu1RFQczbf5j0DcbxQgK66zeJCL+cc2F2zgqhGuW5K52nI0F5HFd8zuuZtA==}
+  /unstorage/0.5.2:
+    resolution: {integrity: sha512-TgSkgTsHNWkXfFHA6zKmjSqHPn8uvpTj0SOgpLKyR15SWakCqnMUo3Yl3lQ5NBP61chJtCKAHwTB/27YvsZCjw==}
     dependencies:
       anymatch: 3.1.2
       chokidar: 3.5.3
@@ -5975,8 +5975,8 @@ packages:
       - stylus
     dev: true
 
-  /vitest/0.15.2_c8@7.11.3:
-    resolution: {integrity: sha512-cMabuUqu+nNHafkdN7H8Z20+UZTrrUfqjGwAoLwUwrqFGWBz3gXwxndjbLf6mgSFs9lF/JWjKeNM1CXKwtk26w==}
+  /vitest/0.16.0_c8@7.11.3:
+    resolution: {integrity: sha512-Ntp6jrM8wf2NMtamMBLkRBBdeqHkgAH/WMh5Xryts1j2ft2D8QZQbiSVFkSl4WmEQzcPP0YM069g/Ga1vtnEtg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -6001,7 +6001,7 @@ packages:
       chai: 4.3.6
       debug: 4.3.4
       local-pkg: 0.4.1
-      tinypool: 0.1.3
+      tinypool: 0.2.1
       tinyspy: 0.3.3
       vite: 2.9.12
     transitivePeerDependencies:
