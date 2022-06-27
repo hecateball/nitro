@@ -1,5 +1,5 @@
 import { createRequire } from 'module'
-import { join, relative, resolve } from 'pathe'
+import { dirname, join, relative, resolve } from 'pathe'
 import fse from 'fs-extra'
 import { globby } from 'globby'
 import { readPackageJSON } from 'pkg-types'
@@ -20,7 +20,7 @@ export const firebase = defineNitroPreset({
 })
 
 async function writeRoutes (nitro: Nitro) {
-  if (!fse.existsSync(join(nitro.options.rootDir, 'firebase.json'))) {
+  if (!exists(nitro.options.rootDir, 'firebase.json')) {
     const firebase = {
       functions: {
         source: relative(nitro.options.rootDir, nitro.options.output.serverDir)
@@ -92,4 +92,16 @@ async function writeRoutes (nitro: Nitro) {
       2
     )
   )
+}
+
+function exists (dir: string, fileName: string) {
+  let rootDir = dir
+  while (!fse.existsSync(join(rootDir, fileName))) {
+    const parentDir = dirname(rootDir)
+    if (parentDir === rootDir) {
+      return false
+    }
+    rootDir = parentDir
+  }
+  return true
 }
